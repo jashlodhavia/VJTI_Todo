@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, jsonify
 from flask_mysqldb import MySQL
-from passlib.hash import sha256_crypt
 import yaml
 import hashlib
 
