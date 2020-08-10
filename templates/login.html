@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please Login agent</h1>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="Agent ID" name="agent_id" value="{{
+          request.form.agent_id }}">
+         <input type="password" placeholder="Password" name="password" value="{{
+          request.form.password }}">
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </body>
+</html>
